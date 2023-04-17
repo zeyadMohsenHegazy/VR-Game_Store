@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0; 
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #150a18;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.try{
+    text-align: center;
+    margin-top: 1hv;
+}
+.try:hover ~ #trynow{
+    transition-delay: 1.2s;
+    filter: drop-shadow(-7px -7px 0.75rem #FE53BB);
+}
+.try:hover ~ #hoverMrihan{
+    visibility: visible;
+    transition-delay: 1.2s;
+    filter: drop-shadow(2px -7px 8px #FE53BB);
+}
+a{
+    font-family: 'Orbitron';
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #09FBD3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 5wv;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 2%;
+}
+a:hover {
+    color: #150a18;
+    background: #fbabdb;
+    font-weight: 600;
+    box-shadow: 0 0 10px #FE53BB, 0 0 10px #FE53BB, 0 0 80px #FE53BB ;
+    transition-delay: 1.1s ;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#FE53BB) ;
+}
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#FE53BB) ;
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#FE53BB) ;
+}
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#FE53BB) ;
+}
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.imaginHead{
+    font-family: 'Orbitron';
+    background: linear-gradient(to left, #FE53BB, #09fbd399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+    font-size: 10vw;
+    font-weight: 900;
+    text-transform: uppercase ;
+    position:static;
+    width: 100%;  
+}
+.imaginHead:hover{
+    filter: drop-shadow(0 0 0.8rem #09fbd399);
+}
+img{
+    position: relative;
+    width: 20%;
+    float: right;
+    right: 2em;
+}
+.engMrihan{
+    font-family: 'Orbitron';
+    background: linear-gradient(to left, #FE53BB, #09fbd399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#hoverMrihan{
+    visibility: hidden;
+    margin-top: 5em;
+    margin-left: 5%;
+}

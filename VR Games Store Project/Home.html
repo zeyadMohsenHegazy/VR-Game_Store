@@ -1,0 +1,387 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Zeyad,Keroles and Yossef">
+
+<!-- external libiraries -->
+  <script src="https://kit.fontawesome.com/86d279f712.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+  <link rel="icon" href="assests/images/logo.png" type="image/x-icon">
+
+
+  <!-- BootStrap-->
+  <title>VR Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <!-- my style sheet -->
+  <link href="assests/style/style.css" rel="stylesheet">
+
+  <style>
+    .floating-form {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        background: white;
+        padding: 2rem;
+        border-radius: .5rem;
+    }
+</style>
+
+</head>
+
+<body>
+  <header class="position-fixed w-100">
+    <nav class="navbar navbar-expand-sm navbar-dark p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assests/images/logo.png" width="50px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active  mt-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 mt-2" href="ProjectJS/gamesHome.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 mt-2" href="contactus.html">contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="ProjectJS/login.html">
+                <img src="assests/images/signOut.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <br>
+  <br>
+  <!-- hero section -->
+  <section class="container pt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <h1 class="text-light imaginHead">Open Your Imagination</h1>
+        <p class="text-light imaginP">Everything becomes possible in your virtual reality. Turn on your imagination and
+          immerse
+          yourself in an incredible world of new opportunities</p>
+        <a href="#">
+          <img src="assests/images/readMore.png" class="imaginBtn">
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 gradient-box sm-w-100">
+        <img src="assests/images/4.jpg" class="homeImg w-100">
+      </div>
+    </div>
+  </section>
+  <!-- new oportubit -->
+  <section class="container pt-5 lg-m-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 gradient-box sm-w-100 "
+        style="    filter: drop-shadow(-5px -5px 30px #dc3499);">
+        <img src="assests/images/5.jpg" class="homeImg newoppor w-100" >
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+        <h1 class="text-light imaginHead h1 mt-5">new opportunity</h1>
+        <p class="text-light imaginP">Everything becomes possible in your virtual reality. Turn on your imagination and
+          immerse
+          yourself in an incredible world of new opportunities</p>
+        <a href="#">
+          <img src="assests/images/readMore.png" class="imaginBtn float-end m-lg-2">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- cards -->
+  <h1 class="text-center imaginHead text-center m-auto  mt-5">Discover the world</h1>
+  <div class="container mb-3">
+    <div class="row mt-5">
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fas fa-house fa-2x d-block text-center" style="color:gray"></i>
+        <h4 class="text-center cardtext"> VR for commercial</h4>
+      </div>
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fas fa-heart fa-2x d-block text-center" style="color:rgb(178, 48, 48)"></i>
+        <h4 class="text-center cardtext"> VR for Medical</h4>
+      </div>
+
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fas fa-fire fa-2x d-block text-center" style="color:#e25822 "></i>
+        <h4 class="text-center cardtext"> VR for Emotions</h4>
+      </div>
+
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fas fa-headphones fa-2x d-block text-center" style="color:rgb(62, 31, 239)"></i>
+        <h4 class="text-center cardtext"> VR for Games</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-3">
+    <div class="row mt-5">
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fa-solid fa-fan fa-2x d-block text-center" style="color:rgb(14, 175, 84)"></i>
+        <h4 class="text-center cardtext"> VR for beauty Arts</h4>
+      </div>
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fa-solid fa-briefcase fa-2x d-block text-center" style="color:rgb(26, 6, 128)"></i>
+        <h4 class="text-center cardtext"> VR for Business</h4>
+      </div>
+
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fa-solid fa-vr-cardboard fa-2x d-block text-center" style="color:rgb(5, 231, 252)"></i>
+        <h4 class="text-center cardtext"> VR for Imagination</h4>
+      </div>
+
+      <div class=" col-lg-2 col-md-3 col-sm-10 mt-sm-1 m-auto p-5 card">
+        <i class="fa-solid fa-circle-play fa-2x d-block text-center" style="color:rgb(210, 53, 53)"></i>
+        <h4 class="text-center cardtext"> VR for Activities </h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- GAMES SLIDER CARDS -->
+  <section id="slider" class="pt-5">
+    <div class="container w-75 ">
+
+
+      <h1 class="imaginHead  m-auto  mt-5">OUR GAMES</h1>
+
+
+      <div class="slider">
+        <div class="owl-carousel">
+          <div class="slider-card">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <img src="assests/images/game1.jpg" alt="">
+            </div>
+            <h5 class="mb-0 text-center"><b>Chinese Fight</b></h5>
+            <p class="text-center p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem
+              magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none" href="ProjectJS/gamesHome.html">Explore</a></button>
+          </div>
+          <div class="slider-card">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <img src="assests/images/game2.jpg" alt="">
+            </div>
+            <h5 class="mb-0 text-center"><b>League of Legends</b></h5>
+            <p class="text-center p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem
+              magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none" href="ProjectJS/gamesHome.html">Explore</a></button>
+          </div>
+          <div class="slider-card">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <img src="assests/images/game3.jpg" alt="">
+            </div>
+            <h5 class="mb-0 text-center"><b>Live Your Dream</b></h5>
+            <p class="text-center p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem
+              magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none" href="ProjectJS/gamesHome.html">Explore</a></button>
+          </div>
+          <div class="slider-card">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <img src="assests/images/game4.jpg" alt="">
+            </div>
+            <h5 class="mb-0 text-center"><b>Space Journey </b></h5>
+            <p class="text-center p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem
+              magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none" href="ProjectJS/gamesHome.html">Explore</a></button>
+          </div>
+          <div class="slider-card">
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <img src="assests/images/game5.jpg" alt="">
+            </div>
+            <h5 class="mb-0 text-center"><b>Survival Battle</b></h5>
+            <p class="text-center p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem
+              magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none" href="ProjectJS/gamesHome.html">Explore</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- fedddback -->
+    <section class="mb-4">
+      <h1 class="imaginHead m-auto mt-5">Feedback from our users</h1>
+    
+      <div id="carouselExampleDark" class="carousel carousel-light slide w-50" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner border border-primary">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="carousel-caption d-lg-block f-end">
+              <h5>Keroles Fayez</h5>
+              <p>I bought a game from this website and it was fantastic.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item" data-bs-interval="2000">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="carousel-caption d-lg-block f-end">
+              <h5>Yossef Mostfa</h5>
+              <p>I bought a game from this website and it was fantastic.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item" data-bs-interval="2000">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="carousel-caption d-lg-block f-end">
+              <h5>Zeyad Mohsen</h5>
+              <p>I bought a game from this website and it was fantastic.</p>
+            </div>
+          </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+    
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+      <div class="text-center mt-5">
+        <button class="btn addReview">Add Your Review</button>
+      </div>
+    </section>  
+<div class="floating-form">
+    <h3>Add Your Review</h3>
+    <form id="reviewForm">
+        <div class="mb-3">
+            <label for="nameInput" class="form-label">Name</label>
+            <input type="text" class="form-control" id="nameInput" required>
+        </div>
+        <div class="mb-3">
+            <label for="reviewText" class="form-label">Review</label>
+            <textarea class="form-control" id="reviewText" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+        <button type="button" class="btn btn-secondary cancel" id="cancelBtn">Cancel</button>
+    </form>
+</div>
+ <!-- footer-->
+ <div class="container-fluid">
+ <div class="row mt-5 footer ">
+  <ul class="float-end col-12 footer w-100">
+    <li class="d-inline float-end m-1 mt-3"> <a class="text-decoration-none imaginHead" style="font-size: 3vh;margin-right: 1em;" href="Home.html">Contact US</a></li> 
+    <li class="d-inline float-end m-1 mt-3" > <a class="text-decoration-none imaginHead" style="font-size: 3vh;margin-right: 1em;" href="ProjectJS/gamesHome.html">Games</a></li> 
+    <li class="d-inline float-end m-1 mt-3"> <a class="text-decoration-none  imaginHead" style="font-size: 3vh;margin-right: 1em;" href="contactus.html">Home</a></li> 
+  </ul>
+</div>
+<hr class="m-0">
+ <div class="row footer">
+  <div class="col-6 footText footer mt-2"> all rights reserved © 2022 </div>
+  <div class="col-6 text-end footer mt-2">
+    <p class="d-inline m-2 footText footer">Termes&Agrements</p>
+    <p class="d-inline m-2 footText footer">Privacy Policy</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    const form = $("#reviewForm");
+    const floatingForm = $(".floating-form");
+
+    $(".addReview").click(function () {
+      floatingForm.show();
+    });
+
+    $("#cancelBtn").click(function () {
+      floatingForm.hide();
+    });
+
+    form.submit(function (event) {
+      event.preventDefault();
+      
+      const name = $("#nameInput").val();
+      const reviewText = $("#reviewText").val();
+
+      const newCarouselItem = `
+        <div class="carousel-item" data-bs-interval="2000">
+          <br><br><br><br><br>
+          <div class="carousel-caption d-lg-block f-end">
+            <h5>${name}</h5>
+            <p>${reviewText}</p>
+          </div>
+        </div>
+      `;
+
+      $(".carousel-inner").append(newCarouselItem);
+
+      const newIndex = $(".carousel-indicators button").length;
+      const newIndicator = `
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="${newIndex}" aria-label="Slide ${newIndex + 1}"></button>
+      `;
+
+      $(".carousel-indicators").append(newIndicator);
+
+      form.trigger("reset");
+      floatingForm.hide();
+    });
+  });
+</script>
+
+  <script></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>  
+  <script src="js/script.js"></script>   
+
+</body>
+
+</html>

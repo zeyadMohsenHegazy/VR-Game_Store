@@ -1,0 +1,195 @@
+#bd {
+    background: linear-gradient(90deg, #150a18, #96306d 90%);
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+
+}
+
+nav {
+    background-color: rgba(21, 10, 24, 0.5);
+}
+
+
+
+.box div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid #09fbd38a;
+    z-index: -1;
+}
+
+.box div:nth-child(1) {
+    top: 90%;
+    left: 95%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3) {
+    top: 90%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4) {
+    top: 90%;
+    left: 60%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(5) {
+    top: 67%;
+    left: 4%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7) {
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+    top: 80%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9) {
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+    top: 65%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+#cart-container {
+    overflow-x: auto;
+}
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+   
+}
+
+#cart-container table thead {
+    font-weight: 700;
+}
+
+#cart-container table thead td {
+    background: #09fbd386;
+    color: white;
+    border: none;
+    padding: 6px 0;
+
+}
+
+#cart-container table td {
+
+    text-align: center;
+}
+
+#cart-container table td :nth-child(1) {
+    width: 100px;
+}
+
+#cart-container table td :nth-child(2){width: 200px;}
+#cart-container table td :nth-child(3) {
+    left: 10%;
+}
+
+#cart-container table td :nth-child(4),
+#cart-container table td :nth-child(5),
+#cart-container table td :nth-child(6) {
+    width: 170px;
+}
+
+#cart-container table tbody img  {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#cart-bottom .coupon h5 ,
+#cart-bottom .total h5{
+    background: linear-gradient(270deg, #09FBD3, #FE53BB 90%);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700px;
+}
+
+#cart-bottom .coupon p ,
+#cart-bottom .coupon input {
+    padding: 0 12px;
+}
+#cart-bottom .coupon input{
+    height: 44px;
+}
+#cart-bottom .coupon input{
+    margin: 0 0 20px 12 px;
+}
+
+.app_btn{
+    background: #FE53BB;
+    border: none;
+    padding: 0 12px;
+    height: 44px;
+    margin: 0 0 20px 12px;
+    color: white;
+}
+
+#cart-bottom .total div >div{
+    padding: 0 12px;
+    
+}
+
+#cart-bottom .total div >button{
+    margin: 0 12px 20px 0;
+    
+}
+
+
